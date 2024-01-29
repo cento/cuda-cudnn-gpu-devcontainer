@@ -29,5 +29,6 @@ apt install libcudnn8-dev=${cudnn_ver}
 apt install zlib1g g++ freeglut3-dev libx11-dev libxmu-dev libxi-dev libglu1-mesa libglu1-mesa-dev libfreeimage-dev -y
 # clean up
 pip3 cache purge
+git config --global http.sslCAInfo "/usr/lib/ssl/certs/ca-certificates.crt"
 apt autoremove -y
 apt clean
