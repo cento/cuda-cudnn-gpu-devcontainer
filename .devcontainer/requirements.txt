@@ -6,3 +6,5 @@ seaborn
 tensorflow
 autokeras
 ipykernel
+
+pickleshare

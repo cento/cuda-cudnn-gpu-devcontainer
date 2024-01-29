@@ -6,7 +6,7 @@ apt update
 apt upgrade -y
 # install Linux tools and Python 3
 # apt install software-properties-common wget curl python3-dev python3-pip python3-wheel python3-setuptools  -y
-apt install software-properties-common wget curl python3-dev python3-pip python3-wheel python3-setuptools zlib1g git -y
+apt install software-properties-common wget curl python3-dev python3-pip python3-wheel python3-setuptools zlib1g git unzip -y
 # install Python packages
 python3 -m pip install --upgrade pip
 pip3 install --user -r .devcontainer/requirements.txt
