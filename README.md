@@ -1,4 +1,4 @@
-# NVIDIA CUDA + cuDNN DevContainer Template with GPU Support
+# NVIDIA CUDA (12.3) + cuDNN DevContainer Template with GPU Support
 
 Build and run a DevContainer with Python 3, CUDA 12.3 and cuDNN. This is a better way to run Tensorflow/AutoKeras on Windows with GPU support without frustrating installation and compatibility issues. `.py` and `.ipynb` scripts are supported without the need to install Anaconda/Jupyter Notebook.
 
